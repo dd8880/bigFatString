@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>bigFatString</title>
+</head>
+<body>
+
+    <input type="text" name="type" id="input" />
+
+    <select name="options" id="dropDownList">
+        <option value="one">
+            If input is a first name: Make the first character in a name uppercase, and the rest lowercase
+        </option>
+        <option value="two">
+            If input is a full name: Find the first name
+        </option>
+        <option value="three">
+            If input is a full name: Find the length of the first name
+        </option>
+        <option value="four">
+            If input is a full name: Find the middle name start and end position, and the middle name itself in a full name string
+        </option>
+        <option value="five">
+            If input is a filename: Check if a filename is .png or .jpg
+        </option>
+        <option value="six">
+            If input is a password: Hide a password with the correct number of *s
+        </option>
+        <option value="seven">
+            With any input: Make the third character uppercase
+        </option>
+        <option value="eight">
+            With any input: Make a character uppercase, if it follows a space or a hyphen
+        </option>
+    </select>
+    <div class="wrapper">
+        <p>OUTPUT:&nbsp;</p>
+        <p class="result"></p>
+    </div>
+
+    <button class="generate">Generate Output</button>
+    <script src="script.js"></script>
+</body>
+</html>
